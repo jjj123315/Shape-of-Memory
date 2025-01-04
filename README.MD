@@ -28,6 +28,12 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 3. Tools & languages
 - Python
 - Docker
+
+### Key features
+- In addition to OpenAI, another option for analyzing text or images is using models from platforms like Hugging Face's Transformers library or tools like Ollama for sentiment analysis, image recognition, or other machine learning tasks.
+- Faster processing of large amounts of data.
+- Presenting research results in a more direct and engaging interactive format.
+- Google API operations and applications.
  
 ### Associated papers
 - Chen, Chia-Hao, et al."A Brief Introduction to Sentence BERT Semantic Analysis Model"(2022)
