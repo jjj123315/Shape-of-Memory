@@ -6,13 +6,16 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 3. Interactive map creation.
 ### Key resources
 - Datasets
+
 The text or images you want to analyze.
+
 - Simulation model & implementation
 1. Ollama-llama2 
 2. Ollama-7B 
 3. nlptown/bert model 
 4. Folium
 5. Google geocoing API
+
 - Tools & languages
 1. Python
 2. Docker
