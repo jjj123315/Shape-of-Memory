@@ -7,7 +7,7 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 ### Key resources
 - Datasets
 
-The text or images you want to analyze.
+  The text or images you want to analyze.
 
 - Simulation model & implementation
 1. Ollama-llama2 
