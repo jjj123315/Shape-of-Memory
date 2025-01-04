@@ -28,7 +28,6 @@ Here are the key features of Llama 2:
       ```
       
    If the port is in use, it will display a result similar to the following:
-
       ```
       TCP    0.0.0.0:11434             0.0.0.0:0              LISTENING
       ```
