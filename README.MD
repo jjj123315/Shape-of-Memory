@@ -7,15 +7,15 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 --- 
 ### Key resources
 1. Datasets
-The text or images you want to analyze.
-
+- The text or images you want to analyze.
+-- 
 2.  Simulation model & implementation
 - Ollama-llama2 
 - Ollama-7B 
 - nlptown/bert model 
 - Folium
 - Google geocoing API
-
+-- 
 3. Tools & languages
 - Python
 - Docker
