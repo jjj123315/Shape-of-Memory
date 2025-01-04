@@ -36,4 +36,4 @@ By using the studio's server, the running time can be reduced.
 ˋˋˋ
 #Server URL (adjust to match your Ollama docker setup)
     url = 'http://192.168.30.1:11434/api/generate'
-
+ˋˋˋ
