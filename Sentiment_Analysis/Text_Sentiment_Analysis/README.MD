@@ -8,6 +8,9 @@ Here are the key features of Llama 2:
 3. Llama 2 supports a longer context length, accommodating up to 4,096 tokens.
 4. The licensing agreement for the second version is more permissive than the first, allowing for commercial use.
 
+### Prompt 
+"please summarize the given text with one keywords related to emotions or feelings, and reply only the keywords separated by commas:{text}"
+
 ### Run Ollama locally using the Docker as a container
    1. First, install Docker on your computer.
 
