@@ -17,7 +17,7 @@ Here are the key features of Llama 2:
    ```
    # 定義 Ollama 本地 API URL
    OLLAMA_API_URL = "url_to_your_computer/v1/completions"
-   ```
+   
       *Ollama runs by default on port 11434. You can check if the port is in use using the following method.*
       On Windows: Use PowerShell or Command Prompt:
       ```
@@ -25,7 +25,7 @@ Here are the key features of Llama 2:
       ```
       
       If the port is in use, it will display a result similar to the following:
-      
+
       ```
       TCP    0.0.0.0:11434             0.0.0.0:0              LISTENING
       ```
