@@ -1,8 +1,8 @@
 ## Emotion segmentation in images
 By analyzing key objects and their proportions within images, combined with geographical location information, it can help analyze people's existing imagery, environmental perception, or memory construction of a place. The classification of objects and their proportions in the image influence people's perception of the location and also reflect the objects of memory. If we analyze a large number of images from the same location and identify the most prominent objects, it could provide an insight into the collective memory of the public about that place.
 
-### Model
-Operating with the Ollama llava-7B model.
+### Model-llava 7b
+
 LLaVA (Language Vision Assistant) 7B is a powerful multimodal language model designed specifically to handle both text and image inputs. Below are some key features and advantages of LLaVA 7B:
 
 1. Multimodal Capability
@@ -29,7 +29,7 @@ By processing both language and vision simultaneously, LLaVA 7B is able to bridg
 In summary, LLaVA 7B is a powerful and versatile multimodal model with capabilities for handling text-image tasks. It excels in reasoning efficiency, openness, and adaptability, and can play a crucial role in both academic research and practical applications.
 
 ### Prompt
-Analyze the image and identify the three most significant objects.Be specific about what the objects are (e.g., 'tree', 'car', 'building'). For each object, calculate its approximate proportion of the image (in percentage). Return the results in a single line, separated by commas, in the format: \"Object1: Proportion1%, Object2: Proportion2%, Object3: Proportion3%\".
+"Analyze the image and identify the three most significant objects.Be specific about what the objects are (e.g., 'tree', 'car', 'building'). For each object, calculate its approximate proportion of the image (in percentage). Return the results in a single line, separated by commas, in the format: \"Object1: Proportion1%, Object2: Proportion2%, Object3: Proportion3%\"."
 
 ### Run this code on raccoon's server
 By using the raccoon's server, the running time can be reduced.
