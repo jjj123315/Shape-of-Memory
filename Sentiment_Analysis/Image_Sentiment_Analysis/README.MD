@@ -28,13 +28,13 @@ By processing both language and vision simultaneously, LLaVA 7B is able to bridg
 
 In summary, LLaVA 7B is a powerful and versatile multimodal model with capabilities for handling text-image tasks. It excels in reasoning efficiency, openness, and adaptability, and can play a crucial role in both academic research and practical applications.
 
-- Prompt
+### Prompt
 Analyze the image and identify the three most significant objects.Be specific about what the objects are (e.g., 'tree', 'car', 'building'). For each object, calculate its approximate proportion of the image (in percentage). Return the results in a single line, separated by commas, in the format: \"Object1: Proportion1%, Object2: Proportion2%, Object3: Proportion3%\".
 
 ### Run this code on raccoon's server
-By using the studio's server, the running time can be reduced.
+By using the raccoon's server, the running time can be reduced.
 ```
 #Server URL (adjust to match your Ollama docker setup)
-    url = 'http://192.168.30.1:11434/api/generate'
+url = 'http://192.168.30.1:11434/api/generate'
 
 ```
