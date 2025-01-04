@@ -101,7 +101,7 @@ def process_csv(input_csv_path, output_csv_path):
 
 # 測試程式
 if __name__ == "__main__":
-    input_csv = r"D:\重要資料\桌面\v_s_img_0-200.csv"  # 輸入的 CSV 文件路徑
-    output_csv = r"D:\重要資料\桌面\0-200_kw.csv"  # 輸出的 CSV 文件路徑
+    input_csv = r"path/to/your/file.csv"  # 輸入的 CSV 文件路徑
+    output_csv = r"output/path/file.csv"  # 輸出的 CSV 文件路徑
 
     process_csv(input_csv, output_csv)

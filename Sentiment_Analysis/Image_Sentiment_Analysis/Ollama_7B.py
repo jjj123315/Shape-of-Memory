@@ -62,7 +62,7 @@ def analyze_image_with_ollama(image_path, model='llava:7b', prompt='Describe thi
 
 
 # Directory containing images
-IMAGE_DIR = r"D:\重要資料\文件\studio2024\studio2024\img\可用廣告\聯晟"
+IMAGE_DIR = r"path/to/your/file"
 PROMPT = "Analyze the image and identify the three most significant objects.Be specific about what the objects are (e.g., 'tree', 'car', 'building'). For each object, calculate its approximate proportion of the image (in percentage). Return the results in a single line, separated by commas, in the format: \"Object1: Proportion1%, Object2: Proportion2%, Object3: Proportion3%\"."
 MODEL = "llava:7b"
 OUTPUT_CSV = "image_analysis_results.csv"
