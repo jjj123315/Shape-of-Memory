@@ -31,3 +31,16 @@
    # 執行 Ollama 服務
    CMD ["ollama", "serve"]
    ```
+3. Create a Dockerfile in a folder and save the above content in that file.
+4. Open Docker Desktop. Make sure Docker Desktop is started and running.
+5. Ensure the Dockerfile is in a directory and open that directory.
+6. Build the Image:
+   Click the Terminal button to open a command-line terminal, and use the following command to build the Docker image:
+   ```
+   docker build -t ollama-image .
+   ```
+   Here, ollama-image is the name you give to the image, and the . represents the current directory (where the Dockerfile is located).
+7. If the build is successful, you can see your new image (ollama-image) in the "Images" tab of Docker Desktop. This means you've successfully created the image.
+8. In Docker Desktop, switch to the "Images" tab, find the image you just created (ollama-image), and click the "Run" button to start a container based on that image.When running the container, ensure that the port inside the container (e.g., 11434) is mapped to a port on your local machine. This allows you to access the Ollama service from your machine.
+
+With this, you have completed the process of building and running Ollama via Docker Desktop. Essentially, Docker handles image building through the command line, but you can conveniently manage and run these containers through Docker Desktop.
