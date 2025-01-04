@@ -14,17 +14,17 @@ Here are the key features of Llama 2:
    - [Docker_Installation_Tutorial](/Docker_Installation_Tutorial.md)
 
    2. Once Docker is set up and the container for running Ollama is functioning properly, return to the editor's page, define the local API URL for the computer, and execute the entire code.
-   ```
+   *Ollama runs by default on port 11434. You can check if the port is in use using the following method.*
+   
    # 定義 Ollama 本地 API URL
    OLLAMA_API_URL = "url_to_your_computer/v1/completions"
    
-      *Ollama runs by default on port 11434. You can check if the port is in use using the following method.*
-      On Windows: Use PowerShell or Command Prompt:
+    On Windows: Use PowerShell or Command Prompt:
       ```
       netstat -an | findstr 11434
       ```
       
-      If the port is in use, it will display a result similar to the following:
+    If the port is in use, it will display a result similar to the following:
 
       ```
       TCP    0.0.0.0:11434             0.0.0.0:0              LISTENING
