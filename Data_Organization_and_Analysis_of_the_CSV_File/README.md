@@ -6,4 +6,4 @@ In spatial analysis, data is typically divided into analysis results and geograp
 ```
 pip install pandas
  ```
-- [Averaging](/Data_Organization_and_Analysis_of_the_CSV_File)
+- [For Example-How to get avaerge of multiple data entries](/Data_Organization_and_Analysis_of_the_CSV_File/Average_For_Example.py)
