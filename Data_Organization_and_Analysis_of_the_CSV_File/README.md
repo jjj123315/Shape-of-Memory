@@ -3,7 +3,17 @@ The analysis results run through Python are often exported in CSV or JSON file f
 1. **Averaging the results of multiple data entries**
 
 In spatial analysis, data is typically divided into analysis results and geographic location information, allowing us to visualize the research findings on maps. In large datasets, it is common to encounter multiple data entries corresponding to the same geographic location. In such cases, we need to organize the data and obtain an average value or mode. This method enables quick data processing and result output, with each result corresponding to a geographic coordinate (latitude and longitude) on the map. The processed file can be directly imported into software such as QGIS for mapping.
+You will need to install the pandas library in your running environment first.
 ```
 pip install pandas
  ```
-- [For Example-How to get avaerge of multiple data entries](/Data_Organization_and_Analysis_of_the_CSV_File/Average_For_Example.py)
+- [Example-How to get avaerge of multiple data entries](/Data_Organization_and_Analysis_of_the_CSV_File/Average_For_Example.py)
+
+2. **Match the obtained analysis results with the original file data.**
+
+Sometimes, we only perform specific analysis on certain fields in the data, and the output may not necessarily be text. After multiple analyses, the data may have been reclassified and sorted. In order to match the results with other columns of the original data and reference them against each other, I use Python code to integrate various results for later comparison and final presentation.
+Below is a simple example showing how I map the downloaded images to the columns of the original data.
+
+- [Example-How to match the obtained analysis results with the original file data](/Data_Organization_and_Analysis_of_the_CSV_File/Match_the_Result.py)
+
+3. 
