@@ -14,7 +14,7 @@ Here are the key features of Llama 2:
 ### Run Ollama locally using the Docker as a container
    1. First, install Docker on your computer.
 
-   - [Docker_Installation_Tutorial](/Text_Sentiment_Analysis/Docker_Installation.MD)
+   - [Docker_Installation_Tutorial](/Sentiment_Analysis/Docker_Installation.MD)
 
    2. Once Docker is set up and the container for running Ollama is functioning properly, return to the editor's page, define the local API URL for the computer, and execute the entire code.
 
