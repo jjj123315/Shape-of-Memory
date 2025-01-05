@@ -12,11 +12,13 @@ pip install pandas
 2. **Classify data with the same content in a specific column**
 
 Classify each piece of data based on the content of a specific column, and store them in corresponding folders with matching names, making it easier to analyze data in a specific direction.
+*Use /pandas, /shutil*
 
 - [Example-How to classify data with the same content in a specific column](/Data_Organization_and_Analysis_of_the_CSV_File/Match_the_Result.py)
 
 3. **Categorize data with similar characteristics**
 
 Sometimes, we only perform specific analysis on certain fields in the data, and the output may not necessarily be text. After multiple analyses, the data may have been reclassified and sorted. In order to match the results with other columns of the original data and reference them against each other, I use Python code to integrate various results for later comparison and final presentation.Integrating and reordering data with similar characteristics (such as corresponding to the same geographical location) can speed up data analysis and reading.
+*Use /pandas*
 
 - [Example-How to categorize data with similar characteristics](/ata_Organization_and_Analysis_of_the_CSV_File/Categorize_Data.py)
