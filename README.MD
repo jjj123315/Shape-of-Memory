@@ -11,7 +11,7 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 
 3. Interactive map creation.
 
-   - [Map](/Data_Organization_and_Analysis_of_the_CSV_File)
+   - [Map](/Map)
 
  
 ### Key resources
