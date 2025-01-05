@@ -21,9 +21,7 @@ In the Fall 2024 semester, I attempted to collect posts from the Instagram platf
 2.  Simulation model & implementation
 - Ollama-llama2 
 - Ollama llava-7B 
-- nlptown/bert model 
 - Folium
-- Google geocoing API
 
 3. Tools & languages
 - Python
