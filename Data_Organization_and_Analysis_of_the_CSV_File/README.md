@@ -23,4 +23,4 @@ Sometimes, we only perform specific analysis on certain fields in the data, and 
 
 *Use ```pandas```*
 
-- [Example-How to categorize data with similar characteristics](/ata_Organization_and_Analysis_of_the_CSV_File/Categorize_Data.py)
+- [Example-How to categorize data with similar characteristics](/Data_Organization_and_Analysis_of_the_CSV_File/Categorize_Data.py)
