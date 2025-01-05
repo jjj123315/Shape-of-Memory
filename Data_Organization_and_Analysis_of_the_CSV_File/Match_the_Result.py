@@ -3,14 +3,14 @@ import shutil
 import pandas as pd
 
 # 讀取CSV檔案，並提取 'original_index' 和 'location' 欄位
-csv_file = r'D:\重要資料\桌面\新增資料夾\馬祖\關鍵字401-600.csv'  # 替換為你的CSV檔案路徑
+csv_file = r'path/to/your/file.csv'  # 替換為你的CSV檔案路徑
 file2 = pd.read_csv(csv_file)
 
 # 圖片資料夾路徑
-image_folder = r'D:\重要資料\桌面\all'  # 替換為圖片所在資料夾的路徑
+image_folder = r'path/to/your/image_file'  # 替換為圖片所在資料夾的路徑
 
 # 目標資料夾路徑
-target_folder = r'D:\重要資料\桌面\新增資料夾\馬祖\sorted_images_3'  # 替換為你想創建新資料夾的路徑
+target_folder = r'path/to/output_file'  # 替換為你想創建新資料夾的路徑
 
 # 確保目標資料夾存在
 os.makedirs(target_folder, exist_ok=True)
